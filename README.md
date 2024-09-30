@@ -168,7 +168,3 @@ Replace your local capitalist with a robot...
 Perhaps now people will finally contemplate what will we do if AI robots can make money, build houses, grow food, etc? 
 
 All this Technology means we should be living in abundance. If we automate a system that can grow food for everyone and deliver it, all of us eat.
-
-A real g makes sure everybody eats...
-
-Bless Up
