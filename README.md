@@ -3,8 +3,6 @@ A tensortrade based system to train a model that trades fx, stock, &amp; crypto.
 
 ---
 
-# Alphawicks TensorTrade Multi-API Trading System
-
 This project is a comprehensive trading system built using **TensorTrade**, which supports real-time data from **Bitstamp**, **Alpaca**, and **MetaTrader 5**, along with custom indicators from **TradingView** webhooks. It includes a range of technical analysis features from **TA-Lib**, and a reinforcement learning framework that dynamically learns and adapts to market data.
 
 ## Features
