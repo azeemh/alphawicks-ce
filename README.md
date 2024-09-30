@@ -1,5 +1,5 @@
 # alphawicks-communityedition
-A tensortrade based system to train a model that trades fx, stock, &amp; crypto
+A tensortrade based system to train a model that trades fx, stock, &amp; crypto.
 
 ---
 
@@ -161,3 +161,9 @@ Feel free to fork the repository, create pull requests, or open issues if you ha
 ---
 
 Hopefully this README provides all necessary steps to install, set up, and run the trading system. Adjust the details like your API keys and webhook URL to suit your environment.
+
+### Flip The Script!
+People always fear that capitalists will replace people with robots...
+Replace your local capitalist with a robot...
+Perhaps now people will finally contemplate what will we do if AI robots can make money, build houses, grow food, etc? 
+All this Technology means we should be living in abundance. If we automate a system that can grow food for everyone and deliver it to us why not do so?
