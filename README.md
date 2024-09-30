@@ -39,8 +39,8 @@ Follow the steps below to install and set up the environment.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/azeemh/alphawicks-communityedition.git
-cd alphawicks-communityedition
+git clone https://github.com/azeemh/alphawicks-ce.git
+cd alphawicks-ce
 ```
 
 ### 2. Create a Python Virtual Environment (optional but recommended)
