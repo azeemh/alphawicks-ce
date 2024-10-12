@@ -51,11 +51,7 @@ venv\Scripts\activate      # On Windows
 
 ### 3. Install the Required Packages
 
-Install the required dependencies listed below using `pip`:
-
-```bash
-pip install -r requirements.txt
-```
+To run the TensorTrade system, ensure you have all the required dependencies installed, including `tensortrade`, `pyopencl`, `ccxt`, `alpaca-trade-api`, and `MetaTrader5`. 
 
 ### 4. Install TA-Lib
 
