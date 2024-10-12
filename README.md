@@ -133,7 +133,7 @@ You can send custom indicator signals from TradingView to the system by setting 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is GPL-3 Open Source. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
