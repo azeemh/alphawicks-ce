@@ -61,16 +61,16 @@ You can install the TA-Lib bindings via pip:
 pip install TA-Lib
 ```
 
-For TA-Lib to work, you will need the TA-Lib C library installed on your machine. For different operating systems:
+For TA-Lib to work, you will need the TA-Lib C library installed on your machine. Install options include:
 
-- **macOS**: `brew install ta-lib`
-- **Linux**: Download from [TA-Lib.org](https://www.ta-lib.org/hdr_dw.html), extract it, and compile it:
+- **Brew**: `brew install ta-lib`
+- **Build From Source**: Download from [TA-Lib.org](https://www.ta-lib.org/hdr_dw.html), extract it, and compile it:
   ```bash
   ./configure --prefix=/usr
   make
   sudo make install
   ```
-- **Windows**: Download the [precompiled version](https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib) of TA-Lib for your Python version and install using pip.
+- **pip/windows** (recommended): [ta-lib-python](https://github.com/ta-lib/ta-lib-python) Install using pip.
 
 ---
 
@@ -91,17 +91,7 @@ Configure the Flask server to receive TradingView webhook data. The system is se
 
 ## Running the System
 
-### 1. Start Flask Webhook Server
-
-This will listen for webhook alerts from TradingView.
-
-```bash
-python main.py
-```
-
-You can now set TradingView alerts to trigger the webhook endpoint `http://localhost:5000/webhook`.
-
-### 2. Run the Trading System
+### Run the Trading System
 
 The system will begin pulling real-time data from your chosen APIs, process the data, and make trading decisions using the reinforcement learning model. The old `main.py` is still there for legacy use but is now deprecated for a higher performance configuration.
 
@@ -109,7 +99,7 @@ The system will begin pulling real-time data from your chosen APIs, process the 
 python hpc.py
 ```
 
-### 3. Real-Time Data Streams
+### Real-Time Data Streams
 
 The system will stream real-time data from Bitstamp, Alpaca, and MetaTrader 5. It will also preprocess the data and feed it to the trading model, which will continuously learn and adapt based on the market conditions.
 
