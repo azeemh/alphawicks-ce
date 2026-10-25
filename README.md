@@ -103,10 +103,10 @@ You can now set TradingView alerts to trigger the webhook endpoint `http://local
 
 ### 2. Run the Trading System
 
-The system will begin pulling real-time data from your chosen APIs, process the data, and make trading decisions using the reinforcement learning model.
+The system will begin pulling real-time data from your chosen APIs, process the data, and make trading decisions using the reinforcement learning model. The old `main.py` is still there for legacy use but is now deprecated for a higher performance configuration.
 
 ```bash
-python main.py
+python hpc.py
 ```
 
 ### 3. Real-Time Data Streams
